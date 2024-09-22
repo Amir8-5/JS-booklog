@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBookList</title>
+    <link rel="icon" href="book-icon.png">
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div id="title-container">
+        <div id="icon-container">
+            <img src="book-icon.png" alt="Book Icon" id="title-icon">
+        </div>
+        <div id="title">
+            My<span id="title-primary">Book</span>List
+        </div>
+    </div>
+    <form id="bk-form">
+        <div class="form-group">
+            <label for="bk-title">Title</label>
+            <input type="text" name="title" id="bk-title" autocomplete="off">
+        </div>
+        <div class="form-group">
+            <label for="bk-author">Author</label>
+            <input type="text" name="author" id="bk-author" autocomplete="off">
+        </div>
+        <div class="form-group">
+            <label for="bk-isbn">ISBN</label>
+            <input type="text" name="isbn" id="bk-isbn" autocomplete="off">
+        </div>
+        <div id="submit-container">
+            <input type="submit" value="Add Book" autocomplete="off">
+        </div>
+    </form>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="bk-list">
+            
+        </tbody>
+    </table>
+    <script src="book.js"></script>
+</body>
+</html>

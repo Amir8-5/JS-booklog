@@ -1,0 +1,121 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+#title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 15px;
+}
+
+#title-icon {
+    width: 70px;
+    margin-top: 8px;
+}
+
+#title {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title-primary {
+    color: darkcyan;
+}
+
+#bk-form {
+    margin-top: 20px;
+}
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=text] {
+    display: block;
+    width: 100%;
+    margin: 4px auto 0 auto;
+    border: 1px solid rgb(180, 175, 175);
+    border-radius: 2px;
+    height: 20px;
+    font-size: 12px;
+    font-family: 'Gill Sans';
+    padding-left: 3px;
+    
+}
+
+input[type=text]:focus {
+    border: 1px solid rgb(121, 115, 115);
+    outline: none;
+}
+
+.form-group {
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+#submit-container {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+input[type=submit] {
+    display: block;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 25px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #079b9b;
+}
+
+.table {
+    border: 1px solid rgb(206, 204, 204);
+    margin: 35px auto;
+    width: 90%;
+    min-width: 400px;
+    border-radius: 2px 2px 0 0;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 500;
+    text-align: left;
+    padding: 12px 15px;
+    background-color: darkcyan;
+    color: white;
+}
+
+tbody tr {
+    border-top: 1px solid #dddddd;
+}
+
+td {
+    padding: 12px 15px;
+    font-size: 12px;
+    font-weight: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #e4dfdf;
+}
+
+.delete {
+    color: white;
+    background-color: red;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.delete:hover {
+    cursor: pointer;
+    background-color: rgb(233, 36, 36);
+}
+
